@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC04C6632A695790009FBF6C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04C6622A695790009FBF6C /* Calculator.swift */; };
+		AC04C6652A69581A009FBF6C /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04C6642A69581A009FBF6C /* AddOperation.swift */; };
+		AC04C6672A695836009FBF6C /* SubtractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04C6662A695836009FBF6C /* SubtractOperation.swift */; };
+		AC04C6692A695842009FBF6C /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04C6682A695842009FBF6C /* MultiplyOperation.swift */; };
+		AC04C66B2A695854009FBF6C /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04C66A2A695854009FBF6C /* DivideOperation.swift */; };
 		ACB580DE2A68D5F100C04E9C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB580DD2A68D5F100C04E9C /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC04C6622A695790009FBF6C /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		AC04C6642A69581A009FBF6C /* AddOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperation.swift; sourceTree = "<group>"; };
+		AC04C6662A695836009FBF6C /* SubtractOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractOperation.swift; sourceTree = "<group>"; };
+		AC04C6682A695842009FBF6C /* MultiplyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyOperation.swift; sourceTree = "<group>"; };
+		AC04C66A2A695854009FBF6C /* DivideOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideOperation.swift; sourceTree = "<group>"; };
 		ACB580DA2A68D5F100C04E9C /* hahol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hahol; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB580DD2A68D5F100C04E9C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				ACB580DD2A68D5F100C04E9C /* main.swift */,
+				AC04C6622A695790009FBF6C /* Calculator.swift */,
+				AC04C6642A69581A009FBF6C /* AddOperation.swift */,
+				AC04C6662A695836009FBF6C /* SubtractOperation.swift */,
+				AC04C6682A695842009FBF6C /* MultiplyOperation.swift */,
+				AC04C66A2A695854009FBF6C /* DivideOperation.swift */,
 			);
 			path = hahol;
 			sourceTree = "<group>";
@@ -121,6 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB580DE2A68D5F100C04E9C /* main.swift in Sources */,
+				AC04C6652A69581A009FBF6C /* AddOperation.swift in Sources */,
+				AC04C6632A695790009FBF6C /* Calculator.swift in Sources */,
+				AC04C6672A695836009FBF6C /* SubtractOperation.swift in Sources */,
+				AC04C66B2A695854009FBF6C /* DivideOperation.swift in Sources */,
+				AC04C6692A695842009FBF6C /* MultiplyOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
